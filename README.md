@@ -1,6 +1,6 @@
 ### quandl_case_shiller.r  
 
-A R script for downloading the Case-Shiller Housing Index data from Quandl. All of Quandl's data sets are time series, so they make the Case-Shiller dataset available per individual state. This script downloads each state and consolidates them into one data frame for easy analysis.
+A R script for downloading the Case-Shiller Housing Index data from Quandl. This script downloads each state and consolidates them into one data frame for easy analysis.
 
 See [here](http://www.quandl.com/usa/usa-housing-real-estate) for details on the dataset. 
 
@@ -12,3 +12,6 @@ Python script that accesses the schema (the names and data types of every field)
 There is no way to download or export a schema via the Salesforce UI, so this script can be quite handy.
 It uses the [beatbox](https://code.google.com/p/salesforce-beatbox/) module to connect to the Salesforce API.
 
+### Reference.py 
+
+My reference file for Python. Most of this was put together when I was transitioning from R to Python.
